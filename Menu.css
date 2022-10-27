@@ -1,0 +1,234 @@
+﻿
+/*Hieu chinh thanh menu*/
+#header_container {
+    color: white;
+    background-color: black;
+    background: linear-gradient(to bottom, rgba(0,0,0,.52) 0%,rgba(0,0,0,.2) 100%);
+}
+.header_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    min-height: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 10px;
+    font-size: 1.0rem;
+    z-index: 100;
+}
+.header_content {
+    position: relative;
+}
+/*Hieu chinh thanh menu*/
+
+/*Hieu chinh logo*/
+.header_content .logo_group {
+    margin: 80px 0 50px auto;
+    padding: 0 40px;
+}
+.header_content .logo_group .hd_title {
+   max-width: 220px;
+   margin: 0 0 10px;
+   text-align: center;
+}
+.header_content .logo_group .hd_title img {
+   width: 100%;
+}
+/*Hieu chinh logo*/
+
+/*hieu ung va thanh link*/
+#menu_link {
+    list-style-type: none;
+}
+#global_menu_nav {
+    margin: 0 0 50px auto;
+}
+li.border_bot {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#header_container li.border_bot {
+    position: relative;
+    display: block;
+    padding: 11px 0;
+    border-bottom: 1px solid;
+    border-color: rgba(255,255,255,.2);
+}
+.header_container a.link {
+    color: #fff;
+    text-decoration: none;
+}
+#header_container a.link:hover {
+    color: #f4f4f4;
+}
+#menu_link .border_bot .link::before {
+    background-color: rgba(255,255,255,.8);
+}
+
+#menu_link .border_bot .link:hover:before {
+    width: 100%;
+}
+
+#menu_link .border_bot .link:before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    width: 0;
+    height: 1px;
+}
+/*hieu ung va thanh link*/
+
+/*icon TT*/
+#hd_misc_div {
+    text-align: center;
+    margin: 0 auto 30px;
+}
+.hd_sns_links ul {
+    display: table;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+.hd_sns_links ul li a, #header-search .modal-trigger::before {
+    color: rgba(255,255,255,.7);
+    border-color: rgba(255,255,255,.7);
+}
+.hd_sns_links ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.hd_sns_links ul li i {
+    display: inline-block;
+    font-size: 10px;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.hd_sns_links ul li{
+    display: inline-block;
+}
+/*icon TT*/
+a, a:hover, a:visited, a:active {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+/*Copyright*/
+.header_content .copyright .inner {
+    font-size: 10px;
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px auto 30px;
+}
+/*Copyright*/
+/*thanh tab*/
+.header_container #header_toggle .tgbtn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: auto 5px;
+    font-size: 9px;
+    cursor: pointer;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+.header_container #header_toggle .tgbtn:before {
+    display: inline-block;
+    margin-top: 15px;
+}
+.header_container #header_toggle {
+    text-align: center;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#header_toggle .tgbtn, #mq_menu_tgl {
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    color: #000000;
+    background-color: rgba(255,255,255,.7);
+}
+#header_toggle .tgbtn:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    color: #000000;
+    background-color: white;
+}
+
+/*thanh tab*/
+
+/*background image*/
+    .header-banner-inner.hd_img, .header-banner-inner .bx-viewport .sl-img {
+        background-size: cover;
+        background-position: 50%;
+    }
+    .header-banner-inner, .header-banner-inner a, .header-banner-inner a:hover {
+        color: #ffffff;
+        text-shadow: 0 0 30px rgba(0,0,0,.38);
+    }
+    .header-banner-inner {
+        position: relative;
+        max-height: 100%;
+        height: 100%;
+    }
+    .header-banner-outer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+        z-index: 0;
+    }
+/*background image*/
+#menu_link .border_bot .link:before {
+    transition: all .4s ease-in-out;
+}
+.header_content.hide {
+    opacity: 0;
+}
+.header_container.hide {
+    background: 0;
+    filter: none;
+    overflow-x: hidden;
+}
+/*hien thi thong tin*/
+.dp-container
+{
+    top: 1000px;
+}
+.dp-container {
+    color: #000000;
+    background-color: rgba(255,255,255,0.85);
+}
+.dp-container {
+    margin: 10px;
+    width: calc(100% - 20px);
+}
+.dp-container {
+    position: relative;
+    clear: both;
+    text-align: left;
+    margin: 15px 15px 15px 315px;
+    padding: 30px;
+    width: calc(100% - 330px);
+}
+
+/*---------*/
+.khoi-slide .size-original{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    float:right;
+}
+.hide1 {
+    opacity: 0;
+}

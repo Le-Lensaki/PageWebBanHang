@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
+
+      <div id="container" class="dp-container home clearfix show-header">
+          <div class="khoi-slide">
+              <div class="cac-slide">
+                  <div class="slide active">
+                      <img width="1920" height="1080" src="http://ginnyz.com/wp-content/uploads/2020/10/back1.jpg" class="img1">
+                  </div>
+                  <div class="slide">
+                      <img width="1920" height="1080" src="http://ginnyz.com/wp-content/uploads/2020/10/back1.jpg" class="img1">
+                  </div>
+                  <div class="slide">
+                      <img width="1920" height="1080" src="http://ginnyz.com/wp-content/uploads/2020/10/back1.jpg" class="img1">
+                  </div>
+                  <div class="slide">
+                      <img width="1920" height="1080" src="http://ginnyz.com/wp-content/uploads/2020/10/back1.jpg" class="img1">
+                  </div>
+              </div>
+              <div class="nut-slide">
+                  <span id="btn-prev"><i class="fas fa-chevron-left"></i></span>
+                  <span id="btn-next"><i class="fas fa-chevron-right"></i></span>
+              </div>
+          </div>
+      </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $('.cac-slide').slick({
+            dots: true,
+            arrows: flase,
+            autoplay: true,
+            autoplaySpeed: 1000,
+      });
+    });
+  </script>
+
+  </body>
+</html>
